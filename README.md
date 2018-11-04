@@ -3,7 +3,8 @@ Leading and ending silence trimmer for wav files
 
 To use the program, make directories named input and output in the directory of the program. 
 Put the .wav files that you want edit in the input folder. After running the program edited 
-copies of the files will be in the output folder. 
+copies of the files will be in the output folder. The program uses pydub module which is not 
+common in the installations of python, so you might need to install it first.
 
 On running the program you will be asked to default input front interval. It is the time 
 between where you want the cut to be made and the first non-silence in the file. Similarly, 
