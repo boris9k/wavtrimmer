@@ -205,7 +205,7 @@ def readsiltre():
     while True:
         try:
             siltresh = float(input( 'Enter relative scilence treshold in dB (real number between 0 and 50): ' ))
-            assert siltresh > 0 and siltresh < 50
+            assert siltresh > 0 and siltresh < 51
             return siltresh
         except ValueError:
             print('That was not a real number. Please try again...')
