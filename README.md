@@ -33,4 +33,5 @@ or both. Finally, you will be asked for the relative silence threshold in dB. Ev
 that is less loud than average loudness of the file minus the relative silence threshold
 will be considered as silence. This parameter goes from 0 (everything is considered silence) 
 to 50 (any noise is not silence). Depending on how much noise your files have, you should 
-experiment with this parameter to find the value that suits your purposes.
+experiment with this parameter to find the value that suits your purposes. Rule of thumb is 
+that the less this number is, more will be cut.  
